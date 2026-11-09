@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - Santa Laurensia</title>
+<link rel="stylesheet" href="style3.css">
+ <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <main class="card">
+    <img class="logo" alt="Logo Santa Laurensia" src="logo.png">
+    <h1>Masuk ke akun Anda</h1>
+    <p class="sub">Gunakan username dan password sekolah.</p>
+
+    <form id="loginForm" novalidate>
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="pw">
+          <input type="password" id="password" name="password" >
+          <button type="button" class="toggle" id="toggle" aria-label="Tampilkan password">Lihat</button>
+        </div>
+      </div>
+      <div class="row">
+        <label><input type="checkbox" name="remember"> Ingat saya</label>
+        <a href="#">Lupa password?</a>
+      </div>
+      
+
+      <button type="submit" class="login" ><a href="index.html">Masuk </a></button> 
+      <p class="msg" id="msg" role="alert"></p>
+    </form>
+  </main>
+
+
+</body>
+</html>
